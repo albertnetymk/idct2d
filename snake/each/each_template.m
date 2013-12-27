@@ -40,6 +40,6 @@ set(gca,'xticklabel',{ '0'; '1'; '2'; '3'; '7'; '6'; '5'; '4'; '8'; '9'; '10'; '
 xlabel('Core ID')
 ylabel('Cycles (Million)')
 
-legend('activation', 'read', 'p-read', 'write', 'p-write')
+legend('total', 'read', 'p-read', 'write', 'p-write')
 title(mytitle)
 print(1, strcat(mytitle, '.png'))
