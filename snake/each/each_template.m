@@ -32,10 +32,10 @@ bar(0:14, write_times,'k');
 bar(0:14, polling_write_times,'c');
 hold off
 
-axis([-2 16 0 300])
+axis([-2 16 0 150])
 % axis([-1 15])
 set(gca,'XTick',0:14);
-set(gca,'xticklabel',{ '0'; '1'; '2'; '3'; '7'; '6'; '5'; '4'; '8'; '9'; '10'; '11'; '15'; '14'; '13' })
+% set(gca,'xticklabel',{ '0'; '1'; '2'; '3'; '7'; '6'; '5'; '4'; '8'; '9'; '10'; '11'; '15'; '14'; '13' })
 
 xlabel('Core ID')
 ylabel('Cycles (Million)')
